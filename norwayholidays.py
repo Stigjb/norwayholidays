@@ -1,5 +1,5 @@
 from pandas.tseries.holiday import AbstractHolidayCalendar, Holiday, EasterMonday, Easter
-from pandas.tseries.offsets import Day, CustomBusinessDay
+from pandas.tseries.offsets import Day
 
 class NorwayHolidays(AbstractHolidayCalendar):
     rules = [
